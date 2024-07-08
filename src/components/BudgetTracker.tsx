@@ -24,7 +24,6 @@ export default function BudgetTracker() {
                 text={ `${ percentage }% Gastado` }
             />
         </div>
-
         <div className="flex flex-col justify-center items-center gap-8">
                 <button type="button" 
                 className="bg-pink-600 w-full p-2 text-white font-bold
@@ -48,6 +47,8 @@ export default function BudgetTracker() {
                 label="Gastado"
                 amount={ totalExpenses }
             />
+
+            
         </div>
     </div>
   )
